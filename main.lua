@@ -678,3 +678,5 @@ end
 		end
 	end)
 ]==]
+
+return Drawing
