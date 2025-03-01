@@ -262,10 +262,10 @@ local function Square()
 	}
 
 	local Square = Instance.new("Frame")
-	Square.AnchorPoint 	   = Vector2.new(0.5, 0.5)
+	Square.AnchorPoint 	   = Vector2.new(0, 0)
 	Square.BorderSizePixel = 0
 	Square.Size 		   = UDim2.fromOffset(45, 45)
-	Square.Position		   = UDim2.fromScale(0.5, 0.5)
+	Square.Position		   = UDim2.fromScale(0, 0)
 	Square.Transparency    = Base.Filled and Base.FilledTransparency or 1
 
 	local Stroke = Instance.new("UIStroke")
