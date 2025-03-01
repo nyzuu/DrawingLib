@@ -17,7 +17,9 @@ UI.IgnoreGuiInset = true
 UI.ResetOnSpawn = false
 UI.Parent = Player.PlayerGui
 
-local Drawing = {}
+local Drawing = {
+	UI = UI
+}
 Drawing.Fonts = {
 	"Arial";
 	"HighwayGothic";
