@@ -14,6 +14,7 @@ local Mouse  = Player:GetMouse()
 
 local UI = Instance.new("ScreenGui")
 UI.IgnoreGuiInset = true
+UI.ResetOnSpawn = false
 UI.Parent = Player.PlayerGui
 
 local Drawing = {}
